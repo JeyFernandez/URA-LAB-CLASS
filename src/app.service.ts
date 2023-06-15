@@ -18,6 +18,7 @@ export class AppService {
     const data = {
       primer_numero: payload.a,
       segundo_numero: payload.b,
+      resultado: resultado,
     };
     console.log(typeof data);
     this.resultados.push(data);
